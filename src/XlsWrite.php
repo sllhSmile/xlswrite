@@ -1,5 +1,5 @@
 <?php
-namespace Smile\XlsWrite;
+namespace Hxh\XlsWrite;
 
 
 use Vtiful\Kernel\Excel;

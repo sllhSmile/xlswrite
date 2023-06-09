@@ -1,8 +1,8 @@
 {
-    "name": "smile/xlswrite",
+    "name": "hxh/xlswrite",
     "autoload": {
         "psr-4": {
-            "Smile\\XlsWrite\\": "src/"
+            "Hxh\\XlsWrite\\": "src/"
         }
     },
     "authors": [
@@ -13,13 +13,14 @@
     "require": {
         "php": "^7.1.0 | ^8.1.0"
     },
+
     "extra": {
         "laravel": {
             "providers": [
-                "Smile\\XlsWrite\\Provider\\XlsWriteProvider"
+                "Hxh\\XlsWrite\\Provider\\XlsWriteProvider"
             ],
             "aliases": {
-                "XlsWrite": "Smile\\XlsWrite\\Facades\\XlsWrite"
+                "XlsWrite": "Hxh\\XlsWrite\\Facades\\XlsWrite"
             }
         }
     }
