@@ -1,0 +1,26 @@
+{
+    "name": "smile/xlswrite",
+    "autoload": {
+        "psr-4": {
+            "Smile\\XlsWrite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Smile"
+        }
+    ],
+    "require": {
+        "php": "^7.1.0 | ^8.1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Smile\\XlsWrite\\Provider\\XlsWriteProvider"
+            ],
+            "aliases": {
+                "XlsWrite": "Smile\\XlsWrite\\Facades\\XlsWrite"
+            }
+        }
+    }
+}
