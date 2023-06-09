@@ -1,5 +1,5 @@
 <?php
-namespace Smile\XlsWrite\Facades;
+namespace Hxh\XlsWrite\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Smile\XlsWrite\Provider;
+namespace Hxh\XlsWrite\Provider;
 
 
 
-use Smile\XlsWrite\XlsWrite;
+use Hxh\XlsWrite\XlsWrite;
 
 class XlsWriteProvider extends \Illuminate\Support\ServiceProvider
 {
